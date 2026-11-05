@@ -1,0 +1,19 @@
+{
+  "name": "Beat Sync 6 Ảnh",
+  "description": "6 ảnh chuyển theo beat, chữ tiêu đề mở đầu, hợp trend TikTok",
+  "tags": ["beat", "trend", "photo"],
+  "aspect": "9:16",
+  "fps": 30,
+  "slots_from_beats": true,
+  "slots": [
+    {"duration": 0, "transition": "flash", "zoom": 1.1},
+    {"duration": 0, "transition": "none", "zoom": 1.05}
+  ],
+  "texts": [
+    {"text": "Kỷ niệm của tôi", "start": 0, "duration": 1.2, "size": 15, "y": -0.45, "animation": "zoom_in"}
+  ],
+  "music": {
+    "path": "",
+    "beats": [0, 1.2, 2.0, 2.8, 3.6, 4.4, 6.0]
+  }
+}

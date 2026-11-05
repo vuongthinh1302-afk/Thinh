@@ -1,0 +1,14 @@
+{
+  "name": "Quote Vuông",
+  "description": "Trích dẫn trên nền ảnh, khung vuông cho Instagram/Facebook",
+  "tags": ["quote", "text"],
+  "aspect": "1:1",
+  "fps": 30,
+  "slots": [
+    {"duration": 6.0, "label": "Ảnh nền", "zoom": 1.2}
+  ],
+  "texts": [
+    {"text": "Mỗi ngày là một cơ hội mới", "start": 0.3, "duration": 5.2, "size": 13, "animation": "typewriter"},
+    {"text": "— Tên tác giả", "start": 2.0, "duration": 3.5, "size": 8, "y": 0.3, "color": "#DDDDDD"}
+  ]
+}

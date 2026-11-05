@@ -1,0 +1,21 @@
+{
+  "name": "Travel Vlog",
+  "description": "Vlog du lịch: mở đầu tên địa điểm, 5 cảnh video, kết bằng tên kênh",
+  "tags": ["travel", "vlog"],
+  "aspect": "9:16",
+  "fps": 30,
+  "background": "#101820",
+  "slots": [
+    {"duration": 2.5, "kind": "video", "label": "Cảnh toàn", "transition": "fade", "zoom": 1.1},
+    {"duration": 2.0, "kind": "video", "label": "Đồ ăn", "transition": "slide_left"},
+    {"duration": 2.0, "kind": "video", "label": "Con người", "transition": "slide_left"},
+    {"duration": 2.0, "kind": "video", "label": "Hoạt động", "transition": "zoom"},
+    {"duration": 3.0, "kind": "video", "label": "Hoàng hôn", "zoom": 1.15}
+  ],
+  "texts": [
+    {"text": "ĐÀ LẠT", "start": 0.2, "duration": 2.3, "size": 22, "y": -0.2, "animation": "fade_in"},
+    {"text": "3 ngày 2 đêm", "start": 0.6, "duration": 1.9, "size": 10, "y": 0.0, "color": "#FFC914"},
+    {"text": "Follow để xem tiếp", "start": 9.0, "duration": 2.5, "size": 11, "y": 0.5, "animation": "typewriter"}
+  ],
+  "music": {"path": "", "volume": 0.8, "beats": []}
+}
